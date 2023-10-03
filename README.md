@@ -1,4 +1,4 @@
-#React.JS Calculator
+# React.JS Calculator
 
 This is a pretty normal calculator, built using some React hooks such as: useReducer, useState, useRef etc.
 The only external dependency is React tippy to display a popover in every button.

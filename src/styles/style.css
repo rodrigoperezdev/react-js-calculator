@@ -1,0 +1,95 @@
+.react-calculator-page {
+  height: 100vh;
+  background-image: url("/calculator-bg.png");
+  background-size: cover;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.calculator {
+  -webkit-backdrop-filter: blur(40px);
+          backdrop-filter: blur(40px);
+  color: #fff;
+  border-radius: 10px;
+  width: 300px;
+}
+.calculator__result {
+  width: 90%;
+  padding: 3rem 0.9rem 2rem 0.9rem;
+  background-color: rgba(79, 105, 118, 0.2705882353);
+  border-radius: 10px 10px 0 0;
+  text-align: end;
+  word-break: break-all;
+}
+.calculator__row-4 {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.calculator__row-4 > div {
+  background-color: rgba(64, 85, 106, 0.116);
+  margin: 1px;
+  flex: 1;
+  transition: all 0.1s ease;
+}
+.calculator__row-4 > div:hover {
+  background-color: rgba(64, 85, 106, 0.41);
+}
+.calculator__row-4 > div:active {
+  background-color: rgba(247, 247, 247, 0.153);
+}
+.calculator__row-4 > div > div {
+  padding-block: 1.6rem;
+}
+.calculator__row-3 {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.calculator__row-3 > div:first-child {
+  background-color: rgba(64, 85, 106, 0.116);
+  margin: 1px;
+  flex: 2.03;
+}
+.calculator__row-3 > div:first-child:hover {
+  background-color: rgba(64, 85, 106, 0.41);
+}
+.calculator__row-3 > div:first-child:active {
+  background-color: rgba(200, 200, 200, 0.153);
+}
+.calculator__row-3 > div:first-child > div {
+  padding-block: 1.6rem;
+}
+.calculator__row-3 *:not(:first-child) {
+  background-color: rgba(64, 85, 106, 0.116);
+  margin: 1px;
+  flex: 1;
+}
+.calculator__row-3 *:not(:first-child):hover {
+  background-color: rgba(64, 85, 106, 0.41);
+}
+.calculator__row-3 *:not(:first-child):active {
+  background-color: rgba(207, 207, 207, 0.153);
+}
+.calculator__row-3 *:not(:first-child) > div {
+  padding-block: 1.6rem;
+}
+.calculator__row-3 > div:last-child {
+  background-color: rgba(204, 141, 78, 0.5176470588);
+  border-radius: 0 0 10px 0;
+  margin: 1px;
+}
+
+.tippy-tooltip.calculator-theme {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: rgb(240, 240, 240);
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}/*# sourceMappingURL=style.css.map */

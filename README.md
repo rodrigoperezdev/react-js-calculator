@@ -1,4 +1,4 @@
-<em>React.JS Calculator</em>
+#React.JS Calculator
 
 This is a pretty normal calculator, built using some React hooks such as: useReducer, useState, useRef etc.
 The only external dependency is React tippy to display a popover in every button.
@@ -15,7 +15,7 @@ To install the project dependencies, run the following command:
 
 Once the dependencies are installed, you can start the project by running:
 
-yarn start.
+`$ yarn start`
 
 ## Dependencies
 
